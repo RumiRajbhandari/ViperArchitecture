@@ -7,13 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		866BFA98F1AB4233EC43BED0 /* Pods_ViperArchitectureDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4812341001F6435CDE57896 /* Pods_ViperArchitectureDemo.framework */; };
+		A716A29B21AA7D6D00CAFC97 /* UserResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A716A29A21AA7D6D00CAFC97 /* UserResponseModel.swift */; };
+		A716A29D21AA968900CAFC97 /* UserResponseRemoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A716A29C21AA968900CAFC97 /* UserResponseRemoteModel.swift */; };
+		A739E4BE21A147E1007205F4 /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A739E4BD21A147E1007205F4 /* UserDetailViewController.swift */; };
+		A739E4C021A147FE007205F4 /* UserDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A739E4BF21A147FE007205F4 /* UserDetailPresenter.swift */; };
+		A739E4C221A1480E007205F4 /* UserDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A739E4C121A1480E007205F4 /* UserDetailInteractor.swift */; };
+		A739E4C421A1481E007205F4 /* UserDetailProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A739E4C321A1481E007205F4 /* UserDetailProtocol.swift */; };
+		A739E4C621A14EB3007205F4 /* UserDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A739E4C521A14EB3007205F4 /* UserDetailRouter.swift */; };
 		A7589F2D219D56FB00A3C793 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7589F2C219D56FB00A3C793 /* AppDelegate.swift */; };
-		A7589F2F219D56FB00A3C793 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7589F2E219D56FB00A3C793 /* ViewController.swift */; };
+		A7589F2F219D56FB00A3C793 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7589F2E219D56FB00A3C793 /* LoginViewController.swift */; };
 		A7589F32219D56FB00A3C793 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7589F30219D56FB00A3C793 /* Main.storyboard */; };
 		A7589F34219D56FD00A3C793 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7589F33219D56FD00A3C793 /* Assets.xcassets */; };
 		A7589F37219D56FD00A3C793 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7589F35219D56FD00A3C793 /* LaunchScreen.storyboard */; };
 		A7589F42219D56FD00A3C793 /* ViperArchitectureDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7589F41219D56FD00A3C793 /* ViperArchitectureDemoTests.swift */; };
 		A7589F4D219D56FD00A3C793 /* ViperArchitectureDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7589F4C219D56FD00A3C793 /* ViperArchitectureDemoUITests.swift */; };
+		A7589F60219D5A1D00A3C793 /* LoginProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7589F5F219D5A1D00A3C793 /* LoginProtocol.swift */; };
+		A7589F64219D606E00A3C793 /* UserPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7589F63219D606E00A3C793 /* UserPresenter.swift */; };
+		A7589F66219D612900A3C793 /* UserInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7589F65219D612900A3C793 /* UserInteractor.swift */; };
+		A7589F69219D7A4F00A3C793 /* UserRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7589F68219D7A4F00A3C793 /* UserRouter.swift */; };
+		A766651E21A28FAF00B3C41C /* BaseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A766651D21A28FAF00B3C41C /* BaseEntity.swift */; };
+		A77458BC219D977C00860F11 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77458BB219D977C00860F11 /* Constants.swift */; };
+		A7C8660921AEB96E00517FB9 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C8660821AEB96D00517FB9 /* SWRevealViewController.m */; };
+		A7C8660B21AEBB5F00517FB9 /* SlideinTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C8660A21AEBB5F00517FB9 /* SlideinTableViewController.swift */; };
+		A7CF0BF321AD24DB00952383 /* TabLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CF0BF221AD24DB00952383 /* TabLayoutViewController.swift */; };
+		A7E0A1A621AFE68600F38072 /* StockLedgerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E0A1A521AFE68600F38072 /* StockLedgerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +52,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E280095A6C39F8F26F359E0 /* Pods-ViperArchitectureDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperArchitectureDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ViperArchitectureDemoUITests/Pods-ViperArchitectureDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		523F2EAB11B6E55784FD4FB3 /* Pods_ViperArchitectureDemo_ViperArchitectureDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViperArchitectureDemo_ViperArchitectureDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79A65ABB2F33D905B98A37BB /* Pods_ViperArchitectureDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViperArchitectureDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BE2C0FAE7E64B9DA721B50D /* Pods-ViperArchitectureDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperArchitectureDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViperArchitectureDemoUITests/Pods-ViperArchitectureDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		95F1033E4CAD745E1F5B8494 /* Pods-ViperArchitectureDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperArchitectureDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ViperArchitectureDemo/Pods-ViperArchitectureDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A716A29A21AA7D6D00CAFC97 /* UserResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserResponseModel.swift; sourceTree = "<group>"; };
+		A716A29C21AA968900CAFC97 /* UserResponseRemoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserResponseRemoteModel.swift; sourceTree = "<group>"; };
+		A739E4BD21A147E1007205F4 /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
+		A739E4BF21A147FE007205F4 /* UserDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailPresenter.swift; sourceTree = "<group>"; };
+		A739E4C121A1480E007205F4 /* UserDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailInteractor.swift; sourceTree = "<group>"; };
+		A739E4C321A1481E007205F4 /* UserDetailProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailProtocol.swift; sourceTree = "<group>"; };
+		A739E4C521A14EB3007205F4 /* UserDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailRouter.swift; sourceTree = "<group>"; };
 		A7589F29219D56FB00A3C793 /* ViperArchitectureDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViperArchitectureDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7589F2C219D56FB00A3C793 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A7589F2E219D56FB00A3C793 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A7589F2E219D56FB00A3C793 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A7589F31219D56FB00A3C793 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A7589F33219D56FD00A3C793 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7589F36219D56FD00A3C793 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +77,21 @@
 		A7589F48219D56FD00A3C793 /* ViperArchitectureDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViperArchitectureDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7589F4C219D56FD00A3C793 /* ViperArchitectureDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperArchitectureDemoUITests.swift; sourceTree = "<group>"; };
 		A7589F4E219D56FD00A3C793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7589F5F219D5A1D00A3C793 /* LoginProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProtocol.swift; sourceTree = "<group>"; };
+		A7589F63219D606E00A3C793 /* UserPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPresenter.swift; sourceTree = "<group>"; };
+		A7589F65219D612900A3C793 /* UserInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInteractor.swift; sourceTree = "<group>"; };
+		A7589F68219D7A4F00A3C793 /* UserRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRouter.swift; sourceTree = "<group>"; };
+		A766651D21A28FAF00B3C41C /* BaseEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseEntity.swift; sourceTree = "<group>"; };
+		A77458BB219D977C00860F11 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A7C8660621AEB96B00517FB9 /* ViperArchitectureDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViperArchitectureDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		A7C8660721AEB96D00517FB9 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		A7C8660821AEB96D00517FB9 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		A7C8660A21AEBB5F00517FB9 /* SlideinTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideinTableViewController.swift; sourceTree = "<group>"; };
+		A7CF0BF221AD24DB00952383 /* TabLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabLayoutViewController.swift; sourceTree = "<group>"; };
+		A7E0A1A521AFE68600F38072 /* StockLedgerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockLedgerViewController.swift; sourceTree = "<group>"; };
+		D4812341001F6435CDE57896 /* Pods_ViperArchitectureDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViperArchitectureDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D915D6FBFF06F39756EBA9E0 /* Pods-ViperArchitectureDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperArchitectureDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViperArchitectureDemo/Pods-ViperArchitectureDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F059B79C884DE89C72A94693 /* Pods_ViperArchitectureDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViperArchitectureDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				866BFA98F1AB4233EC43BED0 /* Pods_ViperArchitectureDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +120,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		54BC356338B9637B0B993024 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4812341001F6435CDE57896 /* Pods_ViperArchitectureDemo.framework */,
+				F059B79C884DE89C72A94693 /* Pods_ViperArchitectureDemoTests.framework */,
+				79A65ABB2F33D905B98A37BB /* Pods_ViperArchitectureDemoUITests.framework */,
+				523F2EAB11B6E55784FD4FB3 /* Pods_ViperArchitectureDemo_ViperArchitectureDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1E17D4C68BDCEEED17B35A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95F1033E4CAD745E1F5B8494 /* Pods-ViperArchitectureDemo.debug.xcconfig */,
+				D915D6FBFF06F39756EBA9E0 /* Pods-ViperArchitectureDemo.release.xcconfig */,
+				3E280095A6C39F8F26F359E0 /* Pods-ViperArchitectureDemoUITests.debug.xcconfig */,
+				8BE2C0FAE7E64B9DA721B50D /* Pods-ViperArchitectureDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A7589F20219D56FB00A3C793 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +149,8 @@
 				A7589F40219D56FD00A3C793 /* ViperArchitectureDemoTests */,
 				A7589F4B219D56FD00A3C793 /* ViperArchitectureDemoUITests */,
 				A7589F2A219D56FB00A3C793 /* Products */,
+				A1E17D4C68BDCEEED17B35A4 /* Pods */,
+				54BC356338B9637B0B993024 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +167,22 @@
 		A7589F2B219D56FB00A3C793 /* ViperArchitectureDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A77458BA219D961A00860F11 /* Constant */,
+				A7589F67219D7A4000A3C793 /* router */,
+				A7589F5E219D574800A3C793 /* protocols */,
+				A7589F5D219D573F00A3C793 /* entity */,
+				A7589F5C219D573000A3C793 /* interactor */,
+				A7589F5B219D572700A3C793 /* presenter */,
+				A7589F5A219D571C00A3C793 /* view */,
 				A7589F2C219D56FB00A3C793 /* AppDelegate.swift */,
-				A7589F2E219D56FB00A3C793 /* ViewController.swift */,
 				A7589F30219D56FB00A3C793 /* Main.storyboard */,
+				A7C8660A21AEBB5F00517FB9 /* SlideinTableViewController.swift */,
 				A7589F33219D56FD00A3C793 /* Assets.xcassets */,
 				A7589F35219D56FD00A3C793 /* LaunchScreen.storyboard */,
 				A7589F38219D56FD00A3C793 /* Info.plist */,
+				A7C8660721AEB96D00517FB9 /* SWRevealViewController.h */,
+				A7C8660821AEB96D00517FB9 /* SWRevealViewController.m */,
+				A7C8660621AEB96B00517FB9 /* ViperArchitectureDemo-Bridging-Header.h */,
 			);
 			path = ViperArchitectureDemo;
 			sourceTree = "<group>";
@@ -125,6 +205,71 @@
 			path = ViperArchitectureDemoUITests;
 			sourceTree = "<group>";
 		};
+		A7589F5A219D571C00A3C793 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				A7589F2E219D56FB00A3C793 /* LoginViewController.swift */,
+				A739E4BD21A147E1007205F4 /* UserDetailViewController.swift */,
+				A7CF0BF221AD24DB00952383 /* TabLayoutViewController.swift */,
+				A7E0A1A521AFE68600F38072 /* StockLedgerViewController.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		A7589F5B219D572700A3C793 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A7589F63219D606E00A3C793 /* UserPresenter.swift */,
+				A739E4BF21A147FE007205F4 /* UserDetailPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		A7589F5C219D573000A3C793 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				A7589F65219D612900A3C793 /* UserInteractor.swift */,
+				A739E4C121A1480E007205F4 /* UserDetailInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		A7589F5D219D573F00A3C793 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				A716A29A21AA7D6D00CAFC97 /* UserResponseModel.swift */,
+				A766651D21A28FAF00B3C41C /* BaseEntity.swift */,
+				A716A29C21AA968900CAFC97 /* UserResponseRemoteModel.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		A7589F5E219D574800A3C793 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				A7589F5F219D5A1D00A3C793 /* LoginProtocol.swift */,
+				A739E4C321A1481E007205F4 /* UserDetailProtocol.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		A7589F67219D7A4000A3C793 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				A7589F68219D7A4F00A3C793 /* UserRouter.swift */,
+				A739E4C521A14EB3007205F4 /* UserDetailRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		A77458BA219D961A00860F11 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				A77458BB219D977C00860F11 /* Constants.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +277,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A7589F51219D56FD00A3C793 /* Build configuration list for PBXNativeTarget "ViperArchitectureDemo" */;
 			buildPhases = (
+				6A250B89B1D878FD16343634 /* [CP] Check Pods Manifest.lock */,
 				A7589F25219D56FB00A3C793 /* Sources */,
 				A7589F26219D56FB00A3C793 /* Frameworks */,
 				A7589F27219D56FB00A3C793 /* Resources */,
+				A82C9E1E20EC88C98B12D906 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -193,6 +340,7 @@
 				TargetAttributes = {
 					A7589F28219D56FB00A3C793 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 					A7589F3C219D56FD00A3C793 = {
 						CreatedOnToolsVersion = 9.3;
@@ -251,13 +399,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6A250B89B1D878FD16343634 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ViperArchitectureDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A82C9E1E20EC88C98B12D906 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ViperArchitectureDemo/Pods-ViperArchitectureDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViperArchitectureDemo/Pods-ViperArchitectureDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A7589F25219D56FB00A3C793 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7589F2F219D56FB00A3C793 /* ViewController.swift in Sources */,
+				A7C8660B21AEBB5F00517FB9 /* SlideinTableViewController.swift in Sources */,
+				A739E4C021A147FE007205F4 /* UserDetailPresenter.swift in Sources */,
+				A716A29B21AA7D6D00CAFC97 /* UserResponseModel.swift in Sources */,
+				A7589F66219D612900A3C793 /* UserInteractor.swift in Sources */,
+				A716A29D21AA968900CAFC97 /* UserResponseRemoteModel.swift in Sources */,
+				A739E4BE21A147E1007205F4 /* UserDetailViewController.swift in Sources */,
+				A7589F60219D5A1D00A3C793 /* LoginProtocol.swift in Sources */,
+				A7589F2F219D56FB00A3C793 /* LoginViewController.swift in Sources */,
+				A7589F69219D7A4F00A3C793 /* UserRouter.swift in Sources */,
+				A739E4C621A14EB3007205F4 /* UserDetailRouter.swift in Sources */,
+				A7589F64219D606E00A3C793 /* UserPresenter.swift in Sources */,
+				A7E0A1A621AFE68600F38072 /* StockLedgerViewController.swift in Sources */,
+				A766651E21A28FAF00B3C41C /* BaseEntity.swift in Sources */,
+				A7C8660921AEB96E00517FB9 /* SWRevealViewController.m in Sources */,
 				A7589F2D219D56FB00A3C793 /* AppDelegate.swift in Sources */,
+				A7CF0BF321AD24DB00952383 /* TabLayoutViewController.swift in Sources */,
+				A739E4C221A1480E007205F4 /* UserDetailInteractor.swift in Sources */,
+				A77458BC219D977C00860F11 /* Constants.swift in Sources */,
+				A739E4C421A1481E007205F4 /* UserDetailProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,8 +638,10 @@
 		};
 		A7589F52219D56FD00A3C793 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95F1033E4CAD745E1F5B8494 /* Pods-ViperArchitectureDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ViperArchitectureDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -438,6 +650,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ViperArchitectureDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ViperArchitectureDemo/ViperArchitectureDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -445,8 +659,10 @@
 		};
 		A7589F53219D56FD00A3C793 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D915D6FBFF06F39756EBA9E0 /* Pods-ViperArchitectureDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ViperArchitectureDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -455,6 +671,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ViperArchitectureDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ViperArchitectureDemo/ViperArchitectureDemo-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
